@@ -47,5 +47,5 @@ function escolhaTres(){
 }
 
 function voltarInicio(){
-    return location.href = '../Projeto Modulo 1/index.html';
+    return location.href = './index.html';
 }
