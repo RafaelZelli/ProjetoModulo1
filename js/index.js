@@ -4,11 +4,11 @@ function exibeprompt(){
     if(selecioneJogador == 0){
         return null;
     }else if(selecioneJogador == 1){
-        return location.href = '../telastifler.html';
+        return location.href = './telastifler.html';
     }else if(selecioneJogador == 2){
-        return location.href = '../telacelsopeter.html';
+        return location.href = './telacelsopeter.html';
     }else if(selecioneJogador == 3){
-        return location.href = '../mary1.html';
+        return location.href = './mary1.html';
     }else{
         alert("Jogador não disponível. Escolha uma das opções válidas"); 
         return exibeprompt();  
