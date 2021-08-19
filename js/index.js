@@ -4,11 +4,11 @@ function exibeprompt(){
     if(selecioneJogador == 0){
         return null;
     }else if(selecioneJogador == 1){
-        return location = ('../Projeto Modulo 1/telastifler.html');
+        return location = ('../telastifler.html');
     }else if(selecioneJogador == 2){
-        return location = ('../Projeto Modulo 1/telacelsopeter.html');
+        return location = ('../telacelsopeter.html');
     }else if(selecioneJogador == 3){
-        return location = ('../Projeto Modulo 1/mary1.html');
+        return location = ('../mary1.html');
     }else{
         alert("Jogador não disponível. Escolha uma das opções válidas"); 
         return exibeprompt();  
