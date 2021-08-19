@@ -4,13 +4,13 @@ function escolhaUm(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/Tela2CelsoPeter.html');
+        return location.href = './Tela2CelsoPeter.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/GameOver1CelsoPeter.html');         
+        return location.href = './GameOver1CelsoPeter.html';         
     }else if(escolha == 3){
-        return location = ('../Projeto Modulo 1/Tela5CelsoPeter.html'); 
+        return location.href = './Tela5CelsoPeter.html'; 
     }else if(escolha == 4){
-        return location = ('../Projeto Modulo 1/Tela4CelsoPeter.html'); 
+        return location.href = './Tela4CelsoPeter.html'; 
     }else{
         alert("Selecione uma opçao válida");
         return escolhaUm();  
@@ -24,11 +24,11 @@ function escolhaDois(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/Tela8CelsoPeter.html');  
+        return location.href = './Tela8CelsoPeter.html';  
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/Tela9CelsoPeter.html');       
+        return location.href = './Tela9CelsoPeter.html';       
     }else if(escolha == 3){
-        return location = ('../Projeto Modulo 1/Tela10CelsoPeter.html');       
+        return location.href = './Tela10CelsoPeter.html';       
     }else{
         alert("Selecione uma opçao válida");
         return escolhaDois();  
@@ -41,9 +41,9 @@ function escolhaTres(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/Tela11CelsoPeter.html');
+        return location.href = './Tela11CelsoPeter.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/GameOver3CelsoPeter.html');
+        return location.href = './GameOver3CelsoPeter.html';
     }else{
         alert("Selecione uma opçao válida");
         return escolhaTres();  
@@ -56,9 +56,9 @@ function escolhaQuatro(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/Tela12CelsoPeter.html');
+        return location.href = './Tela12CelsoPeter.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/GameOver4CelsoPeter.html');
+        return location.href = './GameOver4CelsoPeter.html';
     }else{
         alert("Selecione uma opçao válida");
         return escolhaTres();  
@@ -66,5 +66,5 @@ function escolhaQuatro(){
 }
 
 function voltarInicio(){
-    return location = ('../Projeto Modulo 1/index.html');
+    return location.href = './index.html';
 }

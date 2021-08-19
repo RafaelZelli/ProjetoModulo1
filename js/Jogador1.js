@@ -4,11 +4,11 @@ function escolhaUm(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/GameOver1Stifler.html');
+        return location.href = './GameOver1Stifler.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/Tela2Stifler.html');         
+        return location.href = './Tela2Stifler.html';         
     }else if(escolha == 3){
-        return location = ('../Projeto Modulo 1/Tela3Stifler.html'); 
+        return location.href = './Tela3Stifler.html'; 
     }else{
         alert("Selecione uma opçao válida");
         return escolhaUm();  
@@ -22,9 +22,9 @@ function escolhaDois(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/Tela4Stifler.html');  
+        return location.href = './Tela4Stifler.html';  
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/GameOver2Stifler.html');       
+        return location.href = './GameOver2Stifler.html';       
     }else{
         alert("Selecione uma opçao válida");
         return escolhaDois();  
@@ -37,9 +37,9 @@ function escolhaTres(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/Tela5Stifler.html');
+        return location.href = './Tela5Stifler.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/GameOver3Stifler.html');
+        return location.href = './GameOver3Stifler.html';
     }else{
         alert("Selecione uma opçao válida");
         return escolhaTres();  
@@ -47,5 +47,5 @@ function escolhaTres(){
 }
 
 function voltarInicio(){
-    return location = ('../Projeto Modulo 1/index.html');
+    return location.href = '../Projeto Modulo 1/index.html';
 }

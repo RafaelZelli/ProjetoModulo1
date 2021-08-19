@@ -4,9 +4,9 @@ function escolhaUm(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/mary3.html');
+        return location.href = './mary3.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/mary4.html');      
+        return location.href = './mary4.html';      
     }else{
         alert("Selecione uma opçao válida");
         return escolhaUm();  
@@ -20,9 +20,9 @@ function escolhaDois(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/mary5.html');
+        return location.href = '.mary5.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/mary6.html');    
+        return location.href = './mary6.html';    
     }else{
         alert("Selecione uma opçao válida");
         return escolhaDois();  
@@ -35,9 +35,9 @@ function escolhaTres(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location = ('../Projeto Modulo 1/mary8.html');
+        return location.href = './mary8.html';
     }else if(escolha == 2){
-        return location = ('../Projeto Modulo 1/mary9.html');
+        return location.href = './mary9.html';
     }else{
         alert("Selecione uma opçao válida");
         return escolhaTres();  
@@ -45,5 +45,5 @@ function escolhaTres(){
 }
 
 function voltarInicio(){
-    return location = ('../Projeto Modulo 1/index.html');
+    return location.href = './index.html';
 }
