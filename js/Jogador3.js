@@ -1,17 +1,12 @@
 function escolhaUm(){
-    var escolha = prompt("Digite as opçoes abaixo \n 1 - Correr \n 2 - Atirar no Zumbi \n 3 - Pular pela Janela \n 0 - Cancelar");
+    var escolha = prompt("Digite as opçoes abaixo \n 1 - Seguir em frente no corredor \n 2 - Subir as escadas \n 0 - Cancelar");
     
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        document.getElementById("dvConteudo2Jogador3").style.display = "block";
-        document.getElementById("dvConteudoJogador3").style.display = "none";
+        return location = ('../Projeto Modulo 1/mary3.html');
     }else if(escolha == 2){
-        document.getElementById("dvConteudo5Jogador3").style.display = "block";
-        document.getElementById("dvConteudoJogador3").style.display = "none";        
-    }else if(escolha == 3){
-        document.getElementById("dvConteudo6Jogador3").style.display = "block";
-        document.getElementById("dvConteudoJogador3").style.display = "none";        
+        return location = ('../Projeto Modulo 1/mary4.html');      
     }else{
         alert("Selecione uma opçao válida");
         return escolhaUm();  
@@ -20,19 +15,14 @@ function escolhaUm(){
 
 
 function escolhaDois(){
-    var escolha = prompt("Digite as opçoes abaixo \n 1 - Dar um soco \n 2 - Pegar o carro \n 3 - Gritar \n 0 - Cancelar");
+    var escolha = prompt("Digite as opçoes abaixo \n 1 - Ir reto \n 2 - Virar a direita \n 0 - Cancelar");
 
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        document.getElementById("dvConteudo3Jogador3").style.display = "block";
-        document.getElementById("dvConteudo2Jogador3").style.display = "none";
+        return location = ('../Projeto Modulo 1/mary5.html');
     }else if(escolha == 2){
-        document.getElementById("dvConteudo5Jogador3").style.display = "block";
-        document.getElementById("dvConteudo2Jogador3").style.display = "none";        
-    }else if(escolha == 3){
-        document.getElementById("dvConteudo6Jogador3").style.display = "block";
-        document.getElementById("dvConteudo2Jogador3").style.display = "none";        
+        return location = ('../Projeto Modulo 1/mary6.html');    
     }else{
         alert("Selecione uma opçao válida");
         return escolhaDois();  
@@ -40,19 +30,14 @@ function escolhaDois(){
 }
 
 function escolhaTres(){
-    var escolha = prompt("Digite as opçoes abaixo \n 1 - Saltar \n 2 - Pular \n 3 - Voar \n 0 - Cancelar");
+    var escolha = prompt("Digite as opçoes abaixo \n 1 - Gritar por ajuda \n 2 - Quebrar e pular pela janela \n 0 - Cancelar");
 
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        document.getElementById("dvConteudo4Jogador3").style.display = "block";
-        document.getElementById("dvConteudo3Jogador3").style.display = "none";
+        return location = ('../Projeto Modulo 1/mary8.html');
     }else if(escolha == 2){
-        document.getElementById("dvConteudo5Jogador3").style.display = "block";
-        document.getElementById("dvConteudo3Jogador3").style.display = "none";
-    }else if(escolha == 3){
-        document.getElementById("dvConteudo6Jogador3").style.display = "block";
-        document.getElementById("dvConteudo3Jogador3").style.display = "none";
+        return location = ('../Projeto Modulo 1/mary9.html');
     }else{
         alert("Selecione uma opçao válida");
         return escolhaTres();  
@@ -60,5 +45,5 @@ function escolhaTres(){
 }
 
 function voltarInicio(){
-    return location = ('../Projeto Modulo 1/Jogo.html');
+    return location = ('../Projeto Modulo 1/index.html');
 }

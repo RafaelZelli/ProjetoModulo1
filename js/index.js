@@ -8,7 +8,7 @@ function exibeprompt(){
     }else if(selecioneJogador == 2){
         return location = ('../Projeto Modulo 1/telacelsopeter.html');
     }else if(selecioneJogador == 3){
-        return location = ('../Projeto Modulo 1/html/maryTelaUm.html');
+        return location = ('../Projeto Modulo 1/mary1.html');
     }else{
         alert("Jogador não disponível. Escolha uma das opções válidas"); 
         return exibeprompt();  

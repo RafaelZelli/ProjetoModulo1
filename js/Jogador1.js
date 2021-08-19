@@ -47,5 +47,5 @@ function escolhaTres(){
 }
 
 function voltarInicio(){
-    return location = ('../Projeto Modulo 1/Jogo.html');
+    return location = ('../Projeto Modulo 1/index.html');
 }
