@@ -1,5 +1,5 @@
 function escolhaUm(){
-    var escolha = prompt("Digite as opçoes abaixo \n 1 - Porão \n 2 - Seguir no corredor \n 3 - Porta a direita \n 0 - Cancelar");
+    var escolha = prompt("Digite as opçoes abaixo \n 1 - Porão \n 2 - Seguir no corredor \n 3 - Pular para o andar de cima \n 0 - Cancelar");
     
     if(escolha == 0){
         return null;
@@ -8,7 +8,7 @@ function escolhaUm(){
     }else if(escolha == 2){
         return location.href = './Tela2Stifler.html';         
     }else if(escolha == 3){
-        return location.href = './Tela3Stifler.html'; 
+        return location.href = './GameOver4Stifler.html'; 
     }else{
         alert("Selecione uma opçao válida");
         return escolhaUm();  
