@@ -20,7 +20,7 @@ function escolhaDois(){
     if(escolha == 0){
         return null;
     }else if(escolha == 1){
-        return location.href = '.mary5.html';
+        return location.href = './mary5.html';
     }else if(escolha == 2){
         return location.href = './mary6.html';    
     }else{
